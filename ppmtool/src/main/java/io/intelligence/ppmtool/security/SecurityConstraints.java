@@ -6,5 +6,5 @@ public class SecurityConstraints {
   public static final String SECRET_KEY = "SecretKeyToGenerateJWTs";
   public static final String TOKEN_PREFIX = "Bearer ";
   public static final String HEADER_STRING = "Authorization";
-  public static final long TOKEN_EXPIRATION_TIME = 1000000; //300 Seconds
+  public static final long TOKEN_EXPIRATION_TIME = 3000000;
 }
